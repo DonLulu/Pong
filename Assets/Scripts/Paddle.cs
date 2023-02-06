@@ -31,7 +31,6 @@ public class Paddles : MonoBehaviour
             if (wKeyDown)
             {
                 GetComponent<Rigidbody>().velocity = new Vector2(0, speed);
-                print("up");
             }
 
             else if (sKeyDown)
@@ -48,7 +47,6 @@ public class Paddles : MonoBehaviour
             if (upKeyDown)
             {
                 GetComponent<Rigidbody>().velocity = new Vector2(0, speed);
-                print("up");
             }
 
             else if (downKeyDown)
