@@ -11,11 +11,11 @@ public class Paddles : MonoBehaviour
     {
         if (tag == "left")
         {
-            transform.position = new Vector3(-11.3999996f, 7.98999977f, 19.2099991f);
+            transform.position = new Vector3(-11.3999996f,7.99f,19.2099991f);
         }
         else
         {
-            transform.position = new Vector3(11.3999996f, 7.98999977f, 19.2099991f);
+            transform.position = new Vector3(11.3999996f,7.99f,19.2099991f);
         }
     }
 
